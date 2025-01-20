@@ -6,6 +6,8 @@ import NewCompA from './NewCompA'
 import FormCompA from './FromCompA'
 import CompMemo from './CompMemo'
 import HookComp from './HookComp'
+import CbComp from './CbComp'
+import FilterComp from './FilterComp'
 //import './App.css'
 
 function App() {
@@ -18,7 +20,9 @@ function App() {
       {/* <NewCompA /> */}
       {/* <FormCompA /> */}
       {/* <CompMemo /> */}
-      <HookComp />
+      {/* <HookComp /> */}
+      {/* <CbComp /> */}
+      <FilterComp />
     </>
   )
 }
