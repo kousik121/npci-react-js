@@ -1,0 +1,17 @@
+a{
+    background-color: blue;
+    color: black;
+}
+b{
+    background-color: blueviolet;
+    color: brown;
+}
+div{
+    width: 50px;
+    height: 50px;
+    transform: rotateZ(150deg);
+    background-color: red;
+}
+#diva{
+    transform: skewY(20, 20);
+}

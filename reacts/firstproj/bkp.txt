@@ -1,0 +1,16 @@
+<div style={{backgroundColor:'blue',color:'yellow', fontStyle:'italic'}}>
+        <h1>This is a label</h1>
+      </div>
+      <button style={{backgroundColor:'azure', color:'blueviolet', borderStyle:'groove'}}>Test</button><br />
+      <select style={{backgroundColor:'blue', color:'red', borderStyle:'ridge'}}>
+        <option style={{backgroundColor:'beige'}}>Newton</option>
+        <option style={{backgroundClip:'red'}}>Einstein</option>
+        <option style={{backgroundColor:'yellow'}}>Bohr</option>
+        <option style={{backgroundColor:'antiquewhite'}}>Ramanujan</option>
+      </select>
+
+      <select>
+        {
+          ["Physics", "Geo physics", "Nuclear physics", "Chemistry"].map(n => <option value={n} key={n}>{n.toUpperCase()}</option>)
+        }
+      </select>
