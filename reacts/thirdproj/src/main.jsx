@@ -5,8 +5,10 @@ import App from './App.jsx'
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import reducer from './reducer.js';
+import reducera from './reducera.js';
 
-const store = createStore(reducer);
+//const store = createStore(reducer);
+const store = createStore(reducera);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
