@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import VehComp from './VehComp'
 import NewCompA from './NewCompA'
 import FormCompA from './FromCompA'
+import CompMemo from './CompMemo'
+import HookComp from './HookComp'
 //import './App.css'
 
 function App() {
@@ -14,7 +16,9 @@ function App() {
       <br />
       {/*<VehComp />*/}
       {/* <NewCompA /> */}
-      <FormCompA />
+      {/* <FormCompA /> */}
+      {/* <CompMemo /> */}
+      <HookComp />
     </>
   )
 }
