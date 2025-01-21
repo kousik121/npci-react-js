@@ -9,6 +9,7 @@ import reducera from './reducera.js';
 import reducerb from './reducerb.js';
 import reducerc from './reducerc.js';
 import { thunk } from 'redux-thunk';
+import reducerd from './reducerd.js';
 
 //const store = createStore(reducer);
 //const store = createStore(reducera);

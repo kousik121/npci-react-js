@@ -11,6 +11,7 @@ import FilterComp from './FilterComp'
 import FormikComp from './FormikComp'
 import FormikFormA from './FormikFormA'
 import { validateYupSchema } from 'formik'
+import MyRedComp from './MyRedComp'
 //import './App.css'
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
       {/* <CbComp /> */}
       {/* <FilterComp /> */}
       {/* <FormikComp /> */}
-      <FormikFormA />
+      {/* <FormikFormA /> */}
+      <MyRedComp />
     </>
   )
 }
