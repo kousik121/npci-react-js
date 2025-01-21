@@ -1,12 +1,15 @@
 import { useFormik } from "formik";
+import { useDispatch, useSelector } from "react-redux";
 
 const FormikFormA = (props) => {
+    const counter = useSelector(state => state);
+    const dispatch = useDispatch();
     const formik = useFormik({
         initialValues: {
             name: '', email: '', mobile: ''
         },
         onSubmit: (data) => {
-            alert(JSON.stringify(data))
+            dispatch({type: 'INC', value: JSON.stringify(data)})
         }
     })
     return <>
@@ -23,6 +26,8 @@ const FormikFormA = (props) => {
                 </tbody>
             </table>
         </form>
+        <br />
+        <h1>{JSON.stringify(counter)}</h1>
     </>
 }
 

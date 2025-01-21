@@ -7,10 +7,12 @@ import { createStore } from 'redux';
 import reducer from './reducer.js';
 import reducera from './reducera.js';
 import reducerb from './reducerb.js';
+import reducerc from './reducerc.js';
 
 //const store = createStore(reducer);
 //const store = createStore(reducera);
-const store = createStore(reducerb);
+// const store = createStore(reducerb);
+const store = createStore(reducerc);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
