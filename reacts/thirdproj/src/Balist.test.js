@@ -12,3 +12,7 @@ test("expect the first element id to be 1", () =>{
 test("expect the name of the first object to be Suraj", () => {
     expect(baList()[0].aname).toBe("Suraj")
 });
+
+test("This is a test for exists", () => {
+    expect(baList()).toBeTruthy()
+});
