@@ -9,6 +9,7 @@ import HookComp from './HookComp'
 import CbComp from './CbComp'
 import FilterComp from './FilterComp'
 import FormikComp from './FormikComp'
+import FormikFormA from './FormikFormA'
 //import './App.css'
 
 function App() {
@@ -24,7 +25,8 @@ function App() {
       {/* <HookComp /> */}
       {/* <CbComp /> */}
       {/* <FilterComp /> */}
-      <FormikComp />
+      {/* <FormikComp /> */}
+      <FormikFormA />
     </>
   )
 }
