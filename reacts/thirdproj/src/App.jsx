@@ -10,6 +10,7 @@ import CbComp from './CbComp'
 import FilterComp from './FilterComp'
 import FormikComp from './FormikComp'
 import FormikFormA from './FormikFormA'
+import { validateYupSchema } from 'formik'
 //import './App.css'
 
 function App() {
@@ -30,5 +31,14 @@ function App() {
     </>
   )
 }
+
+export const myThunk = () => {
+  return (dispatch) => {
+    dispatch({
+      value: 'hai',
+      type: 'INC',
+    });
+  };
+};
 
 export default App

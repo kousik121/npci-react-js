@@ -27,7 +27,7 @@ const FormikFormA = (props) => {
             </table>
         </form>
         <br />
-        <h1>{JSON.stringify(counter)}</h1>
+        <h1>{counter.value}</h1>
     </>
 }
 
