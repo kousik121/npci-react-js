@@ -8,13 +8,14 @@ import CompMemo from './CompMemo'
 import HookComp from './HookComp'
 import CbComp from './CbComp'
 import FilterComp from './FilterComp'
+import FormikComp from './FormikComp'
 //import './App.css'
 
 function App() {
 
   return (
     <>
-      <h1>Welcome to state mgt with redux</h1>
+      <h1>Welcome to formik</h1>
       <br />
       {/*<VehComp />*/}
       {/* <NewCompA /> */}
@@ -22,7 +23,8 @@ function App() {
       {/* <CompMemo /> */}
       {/* <HookComp /> */}
       {/* <CbComp /> */}
-      <FilterComp />
+      {/* <FilterComp /> */}
+      <FormikComp />
     </>
   )
 }
